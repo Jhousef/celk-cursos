@@ -34,3 +34,33 @@ instalar as dependências no Node.js.
 ```
 npm install
 ```
+
+Executar as bibliotecas Node.js.
+
+```
+npm run dev
+```
+
+Inicar o projeto criado com Laravel.
+
+```
+php artisan serve
+```
+
+Acessar no navegador a URL.
+
+```
+http://127.0.0.1:8000
+```
+
+Criar seed.
+
+```
+php artisan make:seeder UserSeeder
+```
+
+Cadastrar registro de teste.
+
+```
+php artisan db:seed
+```
